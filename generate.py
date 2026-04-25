@@ -5,7 +5,7 @@ years = {
         ["Gift Boxes", "Dark Ride", "Monster Go", "Wind Turbines", "String Problem", "Currents", "IMO", "Laser Strike"]
     ,
     "2024":
-        ["Infinite Race", "Bouquet", "Team Coding", "Garden Decorations", "Circle Passing", "Bikeparking", ("Light Bulbs(u)", "https://qoj.ac/blog/milmon/blog/979"), "Make them Meet"]
+        ["Infinite Race", "Bouquet", "Team Coding", "Garden Decorations", "Circle Passing", "Bikeparking", ("Light Bulbs*", "https://qoj.ac/blog/milmon/blog/979"), "Make them Meet"]
     ,
     "2023":
         ["Inflation", "Padel Prize Pursuit", "Find the Box", "Bikes vs Cars", "Carnival General", "Candy", "Sopsug", "Guessing Game"]
