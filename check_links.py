@@ -7,10 +7,11 @@ from urllib.request import Request, urlopen
 def check_web_link(url):
     try:
         req = Request(url, method='HEAD')
-        req.add_header('User-Agent', 'Mozilla/5.0')
+        req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36')
         urlopen(req, timeout=10)
         return True
-    except:
+    except Exception as e:
+        print(f"Error checking {url}: {e}")
         return False
 
 links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', Path('readme.md').read_text())
